@@ -1,9 +1,9 @@
+@import url("https://use.typekit.net/bkf0rzi.css");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +13,83 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#__next {
+  background: linear-gradient(45deg, rgb(14 25 49) 0%, rgb(9 19 41) 100%);
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  width: 100%;
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul a {
+  display: block;
+  font-family: omnium, sans-serif;
+  font-size: 0.98rem;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0.75ch;
+  opacity: 0.5;
+}
+
+#tsparticles {
+  background-color: rgba(37, 24, 24, 0.7);
+  transition: background 1s ease-in-out;
+}
+
+.is-uses + #tsparticles {
+  background-color: rgb(14 23 25);
+}
+
+@media (any-hover: hover) {
+  .nav ul a:hover {
+    opacity: 0.8;
+  }
+
+  .nav ul a.is-active {
+    opacity: 1;
+  }
+}
+
+.tac {
+  text-align: center;
+}
+
+.m0 {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav ul a {
+    font-size: 1rem;
+  }
 }

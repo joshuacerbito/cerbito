@@ -1,0 +1,70 @@
+.centered {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 3ch;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.heading {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: dharma-gothic-e, sans-serif;
+  font-weight: 300;
+  font-size: 5ch;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.75);
+  letter-spacing: 0.1ch;
+  line-height: 0.8;
+}
+
+.content {
+  color: white;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 3px 3px 3px black;
+  max-width: 800px;
+  padding: 4ch 0 2ch 0;
+  margin: 4ch 2ch 0 2ch;
+  border-top: 1px solid darkslategray;
+}
+
+.contentSection h3 {
+  margin: 0;
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.contentSection p {
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+.contentSection + .contentSection {
+  margin-top: 3rem;
+}
+
+.contentSection a {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.75);
+}
+
+@media (any-hover: hover) {
+  .contentSection a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  }
+}
