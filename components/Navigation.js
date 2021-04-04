@@ -5,7 +5,7 @@ import LinkedIn from "../icons/LinkedIn.svg";
 import Github from "../icons/Github.svg";
 import DevTo from "../icons/DevTo.svg";
 import Medium from "../icons/Medium.svg";
-import YouTube from "../icons/YouTube.svg";
+import Youtube from "../icons/Youtube.svg";
 
 const Navigation = () => (
   <motion.nav
@@ -50,7 +50,7 @@ const Navigation = () => (
       </li>
       <li>
         <a href="https://www.youtube.com/user/joshuacerbito" target="_blank">
-          <YouTube />
+          <Youtube />
         </a>
       </li>
     </ul>
