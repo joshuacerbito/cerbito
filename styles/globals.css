@@ -21,8 +21,8 @@ a {
 
 main {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -51,8 +51,14 @@ main {
   justify-content: center;
 }
 
+.nav ul + ul {
+  margin-top: 1ch;
+}
+
 .nav ul a {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: omnium, sans-serif;
   font-size: 0.98rem;
   font-weight: 300;
@@ -61,20 +67,27 @@ main {
   opacity: 0.5;
 }
 
-#tsparticles {
-  background-color: rgba(37, 24, 24, 0.7);
+.nav svg {
+  width: 2.5ch;
+  height: 2.5ch;
+  fill: white;
+}
+
+#tsparticles:before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 24, 24, 0.4);
   transition: background 1s ease-in-out;
 }
 
-.is-uses + #tsparticles {
-  background-color: rgb(14 23 25);
+.is-uses + #tsparticles:before {
+  background-color: rgb(14 23 25, 0.7);
 }
 
 @media (any-hover: hover) {
-  .nav ul a:hover {
-    opacity: 0.8;
-  }
-
+  .nav ul a:hover,
   .nav ul a.is-active {
     opacity: 1;
   }
