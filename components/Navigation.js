@@ -6,6 +6,7 @@ import Github from "../icons/Github.svg";
 import DevTo from "../icons/DevTo.svg";
 import Medium from "../icons/Medium.svg";
 import Youtube from "../icons/Youtube.svg";
+import Instagram from "../icons/Instagram.svg";
 
 const Navigation = () => (
   <motion.nav
