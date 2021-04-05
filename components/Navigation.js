@@ -53,6 +53,11 @@ const Navigation = () => (
           <Youtube />
         </a>
       </li>
+      <li>
+        <a href="https://www.instagram.com/joshuacerbito/" target="_blank">
+          <Instagram />
+        </a>
+      </li>
     </ul>
   </motion.nav>
 );
