@@ -140,7 +140,7 @@ const Uses = () => {
                               href="https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-860-evo-m-2-sata-500gb-mz-n6e500bw/"
                               target="_blank"
                             >
-                              Samsung 860 EVO SATA M.2
+                              Samsung 860 EVO SATA M.2 500GB
                             </a>
                           </li>
                           <li>
@@ -160,6 +160,39 @@ const Uses = () => {
                             </a>
                           </li>
                         </ul>
+                      </li>
+                      <li>
+                        Motherboard:{" "}
+                        <a
+                          href="https://www.gigabyte.com/ph/Motherboard/B450-AORUS-PRO-WIFI-rev-1x#kf"
+                          target="_blank"
+                        >
+                          Gigabyte B450 AORUS PRO WIFI
+                        </a>
+                      </li>
+                      <li>
+                        CPU Cooler:{" "}
+                        <a href="https://www.tecware.co/mirage" target="_blank">
+                          Tecware Mirage 360
+                        </a>
+                      </li>
+                      <li>
+                        PSU:{" "}
+                        <a
+                          href="https://www.gigabyte.com/ph/Power-Supply/GP-P750GM#kf"
+                          target="_blank"
+                        >
+                          Gigabyte P750GM Modular Power Supply
+                        </a>
+                      </li>
+                      <li>
+                        Case:{" "}
+                        <a
+                          href="https://www.youtube.com/watch?v=ol7lupq0m_E"
+                          target="_blank"
+                        >
+                          Rakk Galura (White)
+                        </a>
                       </li>
                     </ul>
                   </p>
@@ -390,7 +423,7 @@ const Uses = () => {
                     <a href="https://mdfy.herokuapp.com/" target="_blank">
                       MDfy
                     </a>
-                    , an Markdown Editor PWA that I wrote not too long ago (I
+                    , a Markdown Editor PWA that I wrote not too long ago (I
                     also blogged about it{" "}
                     <a
                       href="https://dev.to/cerbito/001-coding-challenges-with-friends-making-a-markdown-editor-n61"
@@ -406,7 +439,7 @@ const Uses = () => {
                     I'm a huge{" "}
                     <a href="https://www.alfredapp.com/" target="_blank">
                       Alfred
-                    </a>
+                    </a>{" "}
                     fan, and I'm glad that{" "}
                     <a
                       href="https://github.com/microsoft/PowerToys"
@@ -438,7 +471,7 @@ const Uses = () => {
                   uses.tech
                 </a>
                 . Check out other people's setups, and while you're at it, why
-                not add yours as well? Cheers!
+                not add yours as well? Cheers! 🥂
               </p>
             </div>
           </motion.section>
