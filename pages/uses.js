@@ -95,11 +95,13 @@ const Uses = () => {
                   </p>
                 </li>
                 <li>
-                  I also like to use a lot of snippets, and for that I use{' '}
-                  <a href="https://espanso.org/" target="_blank">
-                    Espanso
-                  </a>{' '}
-                  (mainly because TextExpander is not free. LOL).
+                  <p>
+                    I also like to use a lot of snippets, and for that I use{' '}
+                    <a href="https://espanso.org/" target="_blank">
+                      Espanso
+                    </a>{' '}
+                    (mainly because TextExpander is not free. LOL).
+                  </p>
                 </li>
               </ul>
             </div>
