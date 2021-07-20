@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import Head from 'next/head';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
-import Navigation from "../components/Navigation";
-import styles from "../styles/Uses.module.css";
+import Navigation from '../components/Navigation';
+import styles from '../styles/Uses.module.css';
 
 const Uses = () => {
   return (
@@ -46,9 +46,9 @@ const Uses = () => {
                   <p>
                     <a href="https://code.visualstudio.com/" target="_blank">
                       Visual Studio Code
-                    </a>{" "}
+                    </a>{' '}
                     is my current editor which I switched to in 2018 after years
-                    of using{" "}
+                    of using{' '}
                     <a href="https://atom.io/" target="_blank">
                       Atom
                     </a>
@@ -57,14 +57,14 @@ const Uses = () => {
                 </li>
                 <li>
                   <p>
-                    I currently use{" "}
+                    I currently use{' '}
                     <a href="https://iterm2.com/" target="_blank">
                       iTerm 2
-                    </a>{" "}
-                    when I'm on macOS, and{" "}
+                    </a>{' '}
+                    when I'm on macOS, and{' '}
                     <a href="https://aka.ms/terminal" target="_blank">
                       Windows Terminal
-                    </a>{" "}
+                    </a>{' '}
                     when I'm on Windows.
                   </p>
                 </li>
@@ -75,16 +75,16 @@ const Uses = () => {
                       target="_blank"
                     >
                       Fira Code
-                    </a>{" "}
+                    </a>{' '}
                     is the font that I'm currently using, although I like to
-                    switch it up often. My other favorites are{" "}
+                    switch it up often. My other favorites are{' '}
                     <a
                       href="https://www.typography.com/fonts/operator/styles"
                       target="_blank"
                     >
                       Operator Mono
-                    </a>{" "}
-                    and{" "}
+                    </a>{' '}
+                    and{' '}
                     <a
                       href="https://www.jetbrains.com/lp/mono/"
                       target="_blank"
@@ -93,6 +93,13 @@ const Uses = () => {
                     </a>
                     .
                   </p>
+                </li>
+                <li>
+                  I also like to use a lot of snippets, and for that I use{' '}
+                  <a href="https://espanso.org/" target="_blank">
+                    Espanso
+                  </a>{' '}
+                  (mainly because TextExpander is not free. LOL).
                 </li>
               </ul>
             </div>
@@ -106,7 +113,7 @@ const Uses = () => {
                     (mainly to justify its cost 😂). Here's the spec list:
                     <ul>
                       <li>
-                        CPU:{" "}
+                        CPU:{' '}
                         <a
                           href="https://www.amd.com/en/products/cpu/amd-ryzen-7-5800x"
                           target="_blank"
@@ -115,7 +122,7 @@ const Uses = () => {
                         </a>
                       </li>
                       <li>
-                        GPU:{" "}
+                        GPU:{' '}
                         <a
                           href="https://www.nvidia.com/en-ph/geforce/graphics-cards/30-series/rtx-3070/"
                           target="_blank"
@@ -124,7 +131,7 @@ const Uses = () => {
                         </a>
                       </li>
                       <li>
-                        RAM: 2x8GB{" "}
+                        RAM: 4x8GB{' '}
                         <a
                           href="https://www.hyperxgaming.com/us/memory/fury-ddr4"
                           target="_blank"
@@ -133,7 +140,7 @@ const Uses = () => {
                         </a>
                       </li>
                       <li>
-                        Storage:{" "}
+                        Storage:{' '}
                         <ul>
                           <li>
                             <a
@@ -162,7 +169,7 @@ const Uses = () => {
                         </ul>
                       </li>
                       <li>
-                        Motherboard:{" "}
+                        Motherboard:{' '}
                         <a
                           href="https://www.gigabyte.com/ph/Motherboard/B450-AORUS-PRO-WIFI-rev-1x#kf"
                           target="_blank"
@@ -171,13 +178,13 @@ const Uses = () => {
                         </a>
                       </li>
                       <li>
-                        CPU Cooler:{" "}
+                        CPU Cooler:{' '}
                         <a href="https://www.tecware.co/mirage" target="_blank">
                           Tecware Mirage 360
                         </a>
                       </li>
                       <li>
-                        PSU:{" "}
+                        PSU:{' '}
                         <a
                           href="https://www.gigabyte.com/ph/Power-Supply/GP-P750GM#kf"
                           target="_blank"
@@ -186,7 +193,7 @@ const Uses = () => {
                         </a>
                       </li>
                       <li>
-                        Case:{" "}
+                        Case:{' '}
                         <a
                           href="https://www.youtube.com/watch?v=ol7lupq0m_E"
                           target="_blank"
@@ -199,13 +206,13 @@ const Uses = () => {
                 </li>
                 <li>
                   <p>
-                    My{" "}
+                    My{' '}
                     <a
                       href="https://support.apple.com/kb/sp715?locale=en_PH"
                       target="_blank"
                     >
                       Macbook Pro
-                    </a>{" "}
+                    </a>{' '}
                     is an early 2015 13-inch model. I'd argue that except for
                     the upcoming M1 models, the 2015 model is where it's at in
                     terms of portable macOS computing.
@@ -213,46 +220,83 @@ const Uses = () => {
                 </li>
                 <li>
                   <p>
-                    Both machines are plugged into a{" "}
+                    Both machines are plugged into a{' '}
                     <a
                       href="https://www.viewsonic.com/ph/products/lcd/VX2718-PC-MHD"
                       target="_blank"
                     >
                       ViewSonic VX2718 27" 165hz
-                    </a>
+                    </a>{' '}
                     curved display.
                   </p>
                 </li>
                 <li>
                   <p>
-                    I switch between 3 keyboards depending on what I'm doing.
-                    The one that I use the most is a{" "}
-                    <a
-                      href="https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard"
-                      target="_blank"
-                    >
-                      Keychron K8 (Gateron Blue)
-                    </a>
-                    . For longer typing/coding sessions, I use a{" "}
-                    <a
-                      href="https://drop.com/buy/magicforce-68-key-mini-mechanical-keyboard"
-                      target="_blank"
-                    >
-                      Magicforce-68 (Cherry Brown)
-                    </a>
-                    . And for intense gaming sessions, I use a{" "}
-                    <a
-                      href="https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-blackwidow-tournament-edition-stealth"
-                      target="_blank"
-                    >
-                      Razer Blackwidow Chroma TE Stealth
-                    </a>
-                    .
+                    I switch between 4 keyboards depending on what I'm doing.
+                    <ul>
+                      <li>
+                        {' '}
+                        My daily-driver is a{' '}
+                        <a
+                          href="https://www.pcgamingrace.com/products/glorious-gmmk-pro-75-barebone-black"
+                          target="_blank"
+                        >
+                          GMMK Pro
+                        </a>{' '}
+                        equipped with{' '}
+                        <a
+                          href="https://www.pcgamingrace.com/products/glorious-panda-mechanical-switches"
+                          target="_blank"
+                        >
+                          Glorious Panda Yellow
+                        </a>{' '}
+                        switches and currently sporting the{' '}
+                        <a
+                          href="https://novelkeys.xyz/products/gmk-metropolis-r2-gb?variant=39541987442855"
+                          target="_blank"
+                        >
+                          GMK Metropolis
+                        </a>{' '}
+                        Keycaps.
+                      </li>
+                      <li>
+                        For longer typing/coding sessions, I use a{' '}
+                        <a
+                          href="https://drop.com/buy/magicforce-68-key-mini-mechanical-keyboard"
+                          target="_blank"
+                        >
+                          Magicforce-68 (Cherry Brown)
+                        </a>
+                        .
+                      </li>
+                      <li>
+                        And for intense gaming sessions, I use a{' '}
+                        <a
+                          href="https://www2.razer.com/ap-en/gaming-keyboards-keypads/razer-blackwidow-tournament-edition-stealth"
+                          target="_blank"
+                        >
+                          Razer Blackwidow Chroma TE Stealth
+                        </a>
+                        .
+                      </li>
+                      <li>
+                        {' '}
+                        I used to daily-drive my{' '}
+                        <a
+                          href="https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard"
+                          target="_blank"
+                        >
+                          Keychron K8 (Gateron Blue)
+                        </a>
+                        , but ever since I got my GMMK Pro, it's only been a
+                        backup unit.
+                      </li>
+                    </ul>
                   </p>
                 </li>
                 <li>
                   <p>
-                    The mouse that I've been using for a year now is a{" "}
+                    The mouse that I've been using for a year now is a{' '}
                     <a
                       href="https://www.logitech.com/en-us/products/mice/m720-triathlon.910-004790.html"
                       target="_blank"
@@ -270,25 +314,25 @@ const Uses = () => {
               <ul>
                 <li>
                   <p>
-                    My system's audio revolves around a{" "}
+                    My system's audio revolves around a{' '}
                     <a
                       href="https://www.amazon.com/Native-Instruments-Interface-Recording-Production/dp/B004YPRPJ6"
                       target=")blank"
                     >
                       Native Instruments Komplete Audio 6 Mk.I
-                    </a>{" "}
+                    </a>{' '}
                     USB Interface.
                   </p>
                 </li>
                 <li>
                   <p>
-                    The mic I use is an{" "}
+                    The mic I use is an{' '}
                     <a
                       href="https://www.audio-technica.com/en-us/atr2500-usb"
                       target="_blank"
                     >
                       Audio Technica ATR2500
-                    </a>{" "}
+                    </a>{' '}
                     USB mic, which for some reason, only gets recognized by
                     Windows and Mac as "Advanced USB Audio Device". 🤷‍♂️
                   </p>
@@ -297,75 +341,83 @@ const Uses = () => {
                   <p>
                     I also like to swap earphones / headphones depending on the
                     use-case. The one that's almost always plugged in is a pair
-                    of{" "}
+                    of{' '}
                     <a
                       href="https://headfonics.com/tfz-t2-galaxy-review/"
                       target="_blank"
                     >
                       TFZ-T2
                     </a>
-                    's, but I like to swap it with either a pair of{" "}
+                    's, but I like to swap it with either a pair of{' '}
                     <a
                       href="https://kz-audio.com/kz-zs10-pro.html"
                       target="_blank"
                     >
                       KZ ZS10 Pro
                     </a>
-                    s or an{" "}
+                    s or an{' '}
                     <a
                       href="https://www.audio-technica.com/en-us/ath-m40x"
                       target="_blank"
                     >
                       Audio-Technica ATH-M40x
-                    </a>{" "}
-                    when I'm recording or mixing music.
+                    </a>{' '}
+                    along with an{' '}
+                    <a
+                      href="https://www.presonus.com/products/Eris-E35"
+                      target="_blank"
+                    >
+                      Presonus Eris 3.5
+                    </a>{' '}
+                    Studio Monitor when I'm recording, mixing, or mastering
+                    music.
                   </p>
                 </li>
                 <li>
                   <p>
-                    The Webcam I use is{" "}
-                    <a href="https://obsproject.com/" target="_blank">
-                      OBS
-                    </a>
-                    's{" "}
-                    <a
-                      href="https://obsproject.com/forum/resources/obs-virtualcam.949/"
-                      target="_blank"
-                    >
-                      Virtual Camera
-                    </a>
-                    , powered by a{" "}
+                    My main webcam is an old iPhone 6's (via{' '}
+                    <a href="https://www.elgato.com/en/epoccam" target="_blank">
+                      Elgato's EpocCam
+                    </a>{' '}
+                    app), and a{' '}
                     <a
                       href="https://www.amazon.com/Logitech-Laptop-Webcam-Design-360-Degree/dp/B004YW7WCY"
                       target="_blank"
                     >
                       Logitech C615
                     </a>
+                    , both running through{' '}
+                    <a
+                      href="https://www.nvidia.com/en-ph/geforce/broadcasting/broadcast-app/"
+                      target="_blank"
+                    >
+                      Nvidia Broadcast
+                    </a>
                     .
                   </p>
                 </li>
                 <li>
                   <p>
-                    I use my wife's{" "}
+                    I use my wife's{' '}
                     <a
                       href="https://fujifilm-x.com/global/products/cameras/x-t20/"
                       target="_blank"
                     >
                       Fuji XT-20
-                    </a>{" "}
-                    (equipped with a{" "}
+                    </a>{' '}
+                    (equipped with a{' '}
                     <a
                       href="https://fujifilm-x.com/global/products/lenses/xf35mmf14-r/"
                       target="_blank"
                     >
                       Fujinon 35mm F1.4
-                    </a>{" "}
+                    </a>{' '}
                     lens) whenever I need to shoot higher resolution videos.
                   </p>
                 </li>
                 <li>
                   <p>
-                    My Digital Audio Workstation right now is{" "}
+                    My Digital Audio Workstation right now is{' '}
                     <a href="https://www.reaper.fm/" target="_blank">
                       Reaper
                     </a>
@@ -375,7 +427,7 @@ const Uses = () => {
                 </li>
                 <li>
                   <p>
-                    I edit my videos using{" "}
+                    I edit my videos using{' '}
                     <a href="https://www.blackmagicdesign.com/products/davinciresolve/">
                       Davinci Resolve 17
                     </a>
@@ -391,24 +443,24 @@ const Uses = () => {
                   <p>
                     <a href="https://brave.com/" target="_blank">
                       Brave
-                    </a>{" "}
-                    is my main browser, and for the most part, I use{" "}
+                    </a>{' '}
+                    is my main browser, and for the most part, I use{' '}
                     <a
                       href="https://www.mozilla.org/en-US/firefox/new/"
                       target="_blank"
                     >
                       Firefox
-                    </a>{" "}
+                    </a>{' '}
                     for development. And for mobile, I use iOS Safari on my
                     iPhone X, and Android Chrome on a OnePlus 6.
                   </p>
                 </li>
                 <li>
                   <p>
-                    I use{" "}
+                    I use{' '}
                     <a href="https://habitica.com/" target="_blank">
                       Habitica
-                    </a>{" "}
+                    </a>{' '}
                     (as an installed Desktop Web App) for managing my tasks and
                     habits.
                   </p>
@@ -417,14 +469,14 @@ const Uses = () => {
                   <p>
                     <a href="https://www.notion.so/" target="_blank">
                       Notion
-                    </a>{" "}
+                    </a>{' '}
                     is what I use to store and share notes. For longer writing
-                    sessions, I use{" "}
+                    sessions, I use{' '}
                     <a href="https://mdfy.herokuapp.com/" target="_blank">
                       MDfy
                     </a>
                     , a Markdown Editor PWA that I wrote not too long ago (I
-                    also blogged about it{" "}
+                    also blogged about it{' '}
                     <a
                       href="https://dev.to/cerbito/001-coding-challenges-with-friends-making-a-markdown-editor-n61"
                       target="_blank"
@@ -436,23 +488,23 @@ const Uses = () => {
                 </li>
                 <li>
                   <p>
-                    I'm a huge{" "}
+                    I'm a huge{' '}
                     <a href="https://www.alfredapp.com/" target="_blank">
                       Alfred
-                    </a>{" "}
-                    fan, and I'm glad that{" "}
+                    </a>{' '}
+                    fan, and I'm glad that{' '}
                     <a
                       href="https://github.com/microsoft/PowerToys"
                       target="_blank"
                     >
                       Microsoft PowerToys
-                    </a>{" "}
+                    </a>{' '}
                     exists for Windows (specifically PowerToys' Run).
                   </p>
                 </li>
                 <li>
                   <p>
-                    I design almost entirely in{" "}
+                    I design almost entirely in{' '}
                     <a href="https://www.figma.com/" target="_blank">
                       Figma
                     </a>
@@ -466,7 +518,7 @@ const Uses = () => {
                 If you've made it this far, then you're awesome, I guess? 😂
               </p>
               <p>
-                <code>/uses</code> is inspired by Wes Bos'{" "}
+                <code>/uses</code> is inspired by Wes Bos'{' '}
                 <a href="https://uses.tech/" target="_blank">
                   uses.tech
                 </a>
