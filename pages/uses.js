@@ -506,7 +506,7 @@ const Uses = () => {
                 </li>
                 <li>
                   <p>
-                    I design almost entirely in{' '}
+                    I design almost exclusively in{' '}
                     <a href="https://www.figma.com/" target="_blank">
                       Figma
                     </a>

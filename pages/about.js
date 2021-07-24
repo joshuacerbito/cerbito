@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import Head from 'next/head';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
-import Navigation from "../components/Navigation";
-import styles from "../styles/Uses.module.css";
+import Navigation from '../components/Navigation';
+import styles from '../styles/Uses.module.css';
 
 const Uses = () => {
   return (
@@ -36,6 +36,7 @@ const Uses = () => {
             <div className={styles.contentSection}>
               <h3>About</h3>
               <p>Sorry, I haven't written anything in here yet.</p>
+              <p>You may wanna check me out on my socials for the meantime.</p>
             </div>
           </motion.section>
         </div>
