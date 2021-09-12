@@ -40,7 +40,7 @@ const Uses = ({ title }) => {
               </p>
             </div>
             <div className={styles.contentSection}>
-              <h3>Editor + Terminal</h3>
+              <h3>👨&zwj;💻 Editor + Terminal</h3>
               <ul>
                 <li>
                   <p>
@@ -106,7 +106,7 @@ const Uses = ({ title }) => {
               </ul>
             </div>
             <div className={styles.contentSection}>
-              <h3>Desk Setup</h3>
+              <h3>🧮 Desk Setup</h3>
               <ul>
                 <li>
                   <p>
@@ -312,7 +312,7 @@ const Uses = ({ title }) => {
               </ul>
             </div>
             <div className={styles.contentSection}>
-              <h3>Audio + Video</h3>
+              <h3>📹 Audio + Video</h3>
               <ul>
                 <li>
                   <p>
@@ -439,7 +439,7 @@ const Uses = ({ title }) => {
               </ul>
             </div>
             <div className={styles.contentSection}>
-              <h3>Desktop Apps</h3>
+              <h3>📦 Desktop Apps</h3>
               <ul>
                 <li>
                   <p>

@@ -50,31 +50,13 @@ const About = ({ title }) => {
                 </a>
                 .
               </p>
-              <h3>
-                <g-emoji
-                  class="g-emoji"
-                  alias="hammer_and_wrench"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png"
-                >
-                  🛠️
-                </g-emoji>{' '}
-                My Favorite Development Tools
-              </h3>
+              <h3>🛠️ My Favorite Development Tools</h3>
               <p>
                 I'd like to think that my approach to development is "technology
                 agnostic", so the list below might look a bit much, but these
                 are the actual stuff I've used for the past year or so.
               </p>
-              <h4>
-                <g-emoji
-                  class="g-emoji"
-                  alias="man_technologist"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png"
-                >
-                  👨&zwj;💻
-                </g-emoji>{' '}
-                Programming languages
-              </h4>
+              <h4>👨&zwj;💻 Programming languages</h4>
               <p>
                 <img
                   src="https://camo.githubusercontent.com/e6b67b27998fca3bccf4c0ee479fc8f9de09d91f389cccfbe6cb1e29c10cfbd7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f637373332d2532333135373242362e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465"
@@ -137,16 +119,7 @@ const About = ({ title }) => {
                   data-canonical-src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&amp;logo=typescript&amp;logoColor=white"
                 />
               </p>
-              <h4>
-                <g-emoji
-                  class="g-emoji"
-                  alias="toolbox"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f9f0.png"
-                >
-                  🧰
-                </g-emoji>{' '}
-                Frameworks, Platforms, and libraries
-              </h4>
+              <h4>🧰 Frameworks, Platforms, & libraries</h4>
               <p>
                 <img
                   src="https://camo.githubusercontent.com/d9952651b677177c9ec05802b314d09d9f34364fcdad7b939c2c999c745d31dc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d41706f6c6c6f4772617068514c2d3331314338373f7374796c653d666f722d7468652d6261646765266c6f676f3d61706f6c6c6f2d6772617068716c"
@@ -269,16 +242,7 @@ const About = ({ title }) => {
                   data-canonical-src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&amp;logo=yarn&amp;logoColor=white"
                 />
               </p>
-              <h4>
-                <g-emoji
-                  class="g-emoji"
-                  alias="file_cabinet"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5c4.png"
-                >
-                  🗄️
-                </g-emoji>{' '}
-                Databases, Cloud hosting, &amp; SaaS
-              </h4>
+              <h4>🗄️ Databases, Cloud hosting, &amp; SaaS</h4>
               <p>
                 <img
                   src="https://camo.githubusercontent.com/9281daa5684971fd3325661e3dd5fea86b21a902e3741a556fb636fbf0e2f3d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4157532d2532334646393930302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d616d617a6f6e2d617773266c6f676f436f6c6f723d7768697465"
@@ -346,16 +310,7 @@ const About = ({ title }) => {
                   data-canonical-src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&amp;logo=vercel&amp;logoColor=white"
                 />
               </p>
-              <h4>
-                <g-emoji
-                  class="g-emoji"
-                  alias="computer"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png"
-                >
-                  💻
-                </g-emoji>{' '}
-                Software and Tools
-              </h4>
+              <h4>💻 Software & Tools</h4>
               <p>
                 If you're intereseted in the software and hardware I use on a
                 daily basis,{' '}
@@ -364,22 +319,15 @@ const About = ({ title }) => {
                 </Link>
                 .
               </p>
-              <h3>
-                <g-emoji
-                  class="g-emoji"
-                  alias="chart_with_upwards_trend"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c8.png"
-                >
-                  📈
-                </g-emoji>{' '}
-                GitHub Stats for Nerds
-              </h3>
+              <h3>📈 GitHub Stats for Nerds</h3>
               <p>
-                <img
-                  alt="Joshua's Activity Graph"
-                  src="https://camo.githubusercontent.com/6aa0cb16c64cccd676ffbae18ec154a89e411e2505cba7ea1b3b719cff1d1d58/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d6a6f736875616365726269746f2662675f636f6c6f723d31463232324526636f6c6f723d463844383636266c696e653d46383544374626706f696e743d46464646464626686964655f626f726465723d74727565"
-                  data-canonical-src="https://activity-graph.herokuapp.com/graph?username=joshuacerbito&amp;bg_color=1F222E&amp;color=F8D866&amp;line=F85D7F&amp;point=FFFFFF&amp;hide_border=true"
-                />
+                <div className="graphContainer">
+                  <img
+                    alt="Joshua's Activity Graph"
+                    src="https://camo.githubusercontent.com/6aa0cb16c64cccd676ffbae18ec154a89e411e2505cba7ea1b3b719cff1d1d58/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d6a6f736875616365726269746f2662675f636f6c6f723d31463232324526636f6c6f723d463844383636266c696e653d46383544374626706f696e743d46464646464626686964655f626f726465723d74727565"
+                    data-canonical-src="https://activity-graph.herokuapp.com/graph?username=joshuacerbito&amp;bg_color=1F222E&amp;color=F8D866&amp;line=F85D7F&amp;point=FFFFFF&amp;hide_border=true"
+                  />
+                </div>
                 <img
                   align="center"
                   src="https://camo.githubusercontent.com/ee67c3043bd3a05a7b2798b085bd7915e2ea536a01dad1b8d67f3dee201e0308/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6a6f736875616365726269746f266c616e67735f636f756e743d38266c61796f75743d636f6d70616374267468656d653d726561637426686964655f626f726465723d747275652662675f636f6c6f723d314632323245267469746c655f636f6c6f723d4638354437462669636f6e5f636f6c6f723d46384438363626686964653d4a7570797465722532304e6f7465626f6f6b"
@@ -406,16 +354,7 @@ const About = ({ title }) => {
                 Web Development, Web Design, Graphic Design, Video Production,
                 and Music Production, to Philosphy &amp; Christian Apologetics.
               </p>
-              <h3>
-                <g-emoji
-                  class="g-emoji"
-                  alias="guitar"
-                  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3b8.png"
-                >
-                  🎸
-                </g-emoji>{' '}
-                Music &amp; Video
-              </h3>
+              <h3>🎸 Music &amp; Video</h3>
               <p>
                 When I'm not coding or teaching, I play music (and usually take
                 videos of me doing so). You can check out some of my music on{' '}
