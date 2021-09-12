@@ -1,14 +1,15 @@
-import Head from "next/head";
-import { motion } from "framer-motion";
+import Head from 'next/head';
+import parse from 'html-react-parser';
+import { motion } from 'framer-motion';
 
-import Navigation from "../components/Navigation";
-import styles from "../styles/Home.module.css";
+import Navigation from '../components/Navigation';
+import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Home({ title, subtitle }) {
   return (
     <main>
       <Head>
-        <title>Joshua Cerbito</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">
@@ -20,7 +21,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            Joshua Cerbito
+            {parse(title)}
           </motion.h1>
           <motion.h2
             className={styles.subHeading}
@@ -29,12 +30,20 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
           >
-            I write code, I train devs, <br />
-            and I play music
+            {parse(subtitle)}
           </motion.h2>
           <Navigation />
         </div>
       </div>
     </main>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: 'Joshua Cerbito',
+      subtitle: `I write code, I train devs,<br />and I play music`,
+    },
+  };
 }

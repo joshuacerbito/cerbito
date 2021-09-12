@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 import Navigation from '../components/Navigation';
 import styles from '../styles/Uses.module.css';
 
-const Uses = () => {
+const Uses = ({ title }) => {
   return (
     <main className="is-uses">
       <Head>
-        <title>Joshua Cerbito uses</title>
+        <title>{title} uses</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">
@@ -71,18 +71,18 @@ const Uses = () => {
                 <li>
                   <p>
                     <a
-                      href="https://github.com/tonsky/FiraCode"
-                      target="_blank"
-                    >
-                      Fira Code
-                    </a>{' '}
-                    is the font that I'm currently using, although I like to
-                    switch it up often. My other favorites are{' '}
-                    <a
                       href="https://www.typography.com/fonts/operator/styles"
                       target="_blank"
                     >
                       Operator Mono
+                    </a>{' '}
+                    is the font that I'm currently using, although I like to
+                    switch it up often. My other favorites are{' '}
+                    <a
+                      href="https://github.com/tonsky/FiraCode"
+                      target="_blank"
+                    >
+                      Fira Code
                     </a>{' '}
                     and{' '}
                     <a
@@ -534,5 +534,13 @@ const Uses = () => {
     </main>
   );
 };
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: 'Joshua Cerbito',
+    },
+  };
+}
 
 export default Uses;
